@@ -21,9 +21,6 @@ let package = Package(
             name: "ReSwiftTemplate",
             dependencies: [
                 .product(name: "ReSwift", package: "ReSwift")
-            ]),
-        .testTarget(
-            name: "ReSwiftTemplateTests",
-            dependencies: ["ReSwiftTemplate"])
+            ])
     ]
 )

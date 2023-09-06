@@ -1,5 +1,5 @@
 //
-//  StateType.swift
+//  StateTemplate.swift
 //  ReSwiftTemplate
 //
 //  Created by Jaewon Yun on 2023/09/05.
@@ -7,9 +7,9 @@
 
 import ReSwift
 
-public protocol StateType {
+public protocol StateTemplate {
 
-    associatedtype Reducer: ReducerType
+    associatedtype Reducer: ReducerTemplate
 
     associatedtype Actions: Action
 
